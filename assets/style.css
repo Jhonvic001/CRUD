@@ -1,0 +1,17 @@
+.background {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode background */
+html[data-bs-theme="light"] .background {
+  background-color: #f8f9fa; /* Light gray */
+}
+
+/* Dark mode background */
+html[data-bs-theme="dark"] .background {
+  background-color: #2c2c2e; /* Dark gray */
+}
+
+.navbar {
+  background-color: #bbc9db !important;
+}
